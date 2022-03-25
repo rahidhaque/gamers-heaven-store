@@ -3,62 +3,54 @@
     "id": "1",
     "name": "Elden Ring",
     "price": 2500,
-    "img": "https://m.media-amazon.com/images/I/81yuT9n7gkL._SX425_.jpg",
+    "img": "https://m.media-amazon.com/images/I/81yuT9n7gkL._SX425_.jpg"
   },
-{
+  {
     "id": "2",
     "name": "God of War",
     "price": 1800,
-    "img": "https://m.media-amazon.com/images/I/811AhOv5zqL._SX425_.jpg",
+    "img": "https://m.media-amazon.com/images/I/811AhOv5zqL._SX425_.jpg"
   },
-
-{
+  {
     "id": "3",
     "name": "Red Dead Redemption 2",
     "price": 2100,
-    "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/header.jpg?t=1618851907",
+    "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/header.jpg?t=1618851907"
   },
-
-{
+  {
     "id": "4",
     "name": "Ghost of Tsushima",
     "price": 4000,
-    "img": "https://images-na.ssl-images-amazon.com/images/I/51guUksoaNS._SX300_SY300_QL70_FMwebp_.jpg",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/51guUksoaNS._SX300_SY300_QL70_FMwebp_.jpg"
   },
-
-
-{
+  {
     "id": "5",
     "name": "Fifa 22",
     "price": 1200,
-    "img": "https://m.media-amazon.com/images/I/71VFQ4y8ILL._SX425_.jpg",
+    "img": "https://m.media-amazon.com/images/I/71VFQ4y8ILL._SX425_.jpg"
   },
-
-{
+  {
     "id": "6",
     "name": "Ghostwire Tokyo",
     "price": 2400,
-    "img": "https://m.media-amazon.com/images/I/91t8gPtbToL._SY500_.jpg",
+    "img": "https://m.media-amazon.com/images/I/91t8gPtbToL._SY500_.jpg"
   },
-
-{
+  {
     "id": "7",
     "name": "Nier Automata",
     "price": 1600,
-    "img": "https://m.media-amazon.com/images/I/91pDtcV5R5L._SX425_.jpg",
+    "img": "https://m.media-amazon.com/images/I/91pDtcV5R5L._SX425_.jpg"
   },
-
-{
+  {
     "id": "8",
     "name": "Tomb Raider GOTY Edition",
     "price": 700,
-    "img": "https://images-na.ssl-images-amazon.com/images/I/61DjttxJliL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/61DjttxJliL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
   },
-
-{
+  {
     "id": "9",
     "name": "Uncharted Legacy of Thieves Collection",
     "price": 2900,
-    "img": "https://images-na.ssl-images-amazon.com/images/I/51REUpb4IfL._SX300_SY300_QL70_FMwebp_.jpg",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/51REUpb4IfL._SX300_SY300_QL70_FMwebp_.jpg"
   }
- ]
+]
