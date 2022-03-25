@@ -8,3 +8,12 @@
     grid-template-columns: repeat(3,1fr);
     margin: 80px 60px;
 }
+
+.cart-container{
+    background-color: rgb(150, 228, 228);
+    width: 300px;
+    height: 360px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 50px;
+}

@@ -14,13 +14,28 @@ const Shop = () => {
     }, [])
 
     const handleAddCart = (game) => {
-        const newCart = [...cart, game];
+        if (cart.length < 4) {
+            const newCart = [...cart, game];
+            setCart(newCart);
+        }
+        else {
+            alert('Cart Item is exceeded above 4');
+        }
+    }
+
+    const handleSetRemoveCart = () => {
+        const newCart = [];
         setCart(newCart);
     }
 
     const handleChooseGameRandom = (names) => {
-        const game = names[Math.floor(Math.random() * names.length)];
-        alert('Your Surprise Game is: ' + game);
+        if (cart.length !== 0) {
+            const game = names[Math.floor(Math.random() * names.length)];
+            alert('Your Surprise Game is: ' + game);
+        }
+        else {
+            alert('Please Choose Something');
+        }
     }
 
     return (
@@ -35,11 +50,11 @@ const Shop = () => {
                 }
             </div>
             <div className='cart-container'>
-                <h4>Selected Games</h4>
                 {
                     <Cart
                         cart={cart}
                         handleChooseGameRandom={handleChooseGameRandom}
+                        handleSetRemoveCart={handleSetRemoveCart}
                     ></Cart>
                 }
             </div>
