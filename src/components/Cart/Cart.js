@@ -1,24 +1,18 @@
 import React from 'react';
+import './Cart.css'
 
 const Cart = (props) => {
-    const { cart } = props;
-    console.log(cart);
-    const names = [];
+    const { cart, handleChooseGameRandom } = props;
+    let names = [];
     for (const game of cart) {
         names.push(game.name);
     }
-
-    const chooseGameRandom = () => {
-        const game = names[Math.floor(Math.random() * names.length)];
-        alert('Your Surprise Game is: ' + game);
-    }
+    const selectedGames = names.map(name => name);
 
     return (
         <div className='cart'>
-            {
-                names.map(name => <div>{name}</div>)
-            }
-            <button onClick={chooseGameRandom}>Choose 1 Game for me</button>
+            <p className='name-text'>{selectedGames.join('\r\n')}</p>
+            <button onClick={() => handleChooseGameRandom(selectedGames)}>Choose 1 Game for me</button>
         </div>
     );
 };

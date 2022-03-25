@@ -18,6 +18,11 @@ const Shop = () => {
         setCart(newCart);
     }
 
+    const handleChooseGameRandom = (names) => {
+        const game = names[Math.floor(Math.random() * names.length)];
+        alert('Your Surprise Game is: ' + game);
+    }
+
     return (
         <div className='shop-container'>
             <div className='games-container'>
@@ -34,6 +39,7 @@ const Shop = () => {
                 {
                     <Cart
                         cart={cart}
+                        handleChooseGameRandom={handleChooseGameRandom}
                     ></Cart>
                 }
             </div>
