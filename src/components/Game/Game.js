@@ -1,5 +1,7 @@
 import React from 'react';
 import './Game.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 
 const Game = (props) => {
     const { name, img, price } = props.game;
@@ -10,7 +12,9 @@ const Game = (props) => {
                 <p className='game-name'>{name}</p>
                 <p className='game-price'>Price: {price} Tk.</p>
             </div>
-            <button className='btn-cart'>Add to Cart</button>
+            <button className='btn-cart'><p className='add-cart-text'>Add to Cart</p>
+                <FontAwesomeIcon icon={faShoppingCart} />
+            </button>
         </div>
     );
 };

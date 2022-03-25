@@ -1,7 +1,7 @@
 .game{
     height: 470px;
     width: 260px;
-    box-shadow: 5px 5px lightblue;
+    box-shadow: 2px 2px lightblue;
     border-radius: 10px;
     margin-left: 45px;
     margin-bottom: 50px;
@@ -34,10 +34,18 @@
     border:none;
     border-radius: 0px 0px 5px 5px;
     position:absolute;
-    padding: 10px;
+    cursor: pointer;
     bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn-cart:hover{
 background-color: rgb(154, 154, 224);
+}
+
+.add-cart-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 5px;
 }
