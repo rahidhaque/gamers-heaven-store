@@ -31,11 +31,11 @@ const Shop = () => {
             </div>
             <div className='cart-container'>
                 <h4>Selected Games</h4>
-                <Cart
-                    id={cart.id}
-                    cart={cart}
-                >
-                </Cart>
+                {
+                    <Cart
+                        cart={cart}
+                    ></Cart>
+                }
             </div>
         </div>
     );
