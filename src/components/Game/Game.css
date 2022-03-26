@@ -3,7 +3,7 @@
     width: 260px;
     box-shadow: 2px 2px lightblue;
     border-radius: 10px;
-    margin-left: 45px;
+    margin-left: 40px;
     margin-bottom: 50px;
     position: relative;
 }
@@ -48,4 +48,10 @@ background-color: rgb(154, 154, 224);
 .add-cart-text{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-right: 5px;
+}
+
+@media screen and (max-width:568px) {
+   .game{
+    margin-left: 0px;
+   }
 }
