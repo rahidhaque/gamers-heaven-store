@@ -31,7 +31,7 @@ const Shop = () => {
     const handleChooseGameRandom = (names) => {
         if (cart.length !== 0) {
             const game = names[Math.floor(Math.random() * names.length)];
-            alert('Your Surprise Game is: ' + game);
+            alert(game);
         }
         else {
             alert('Please Choose Something');

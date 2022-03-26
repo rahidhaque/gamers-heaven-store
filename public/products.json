@@ -52,5 +52,23 @@
     "name": "Uncharted Legacy of Thieves Collection",
     "price": 2900,
     "img": "https://images-na.ssl-images-amazon.com/images/I/51REUpb4IfL._SX300_SY300_QL70_FMwebp_.jpg"
+  },
+  {
+    "id": "10",
+    "name": "The Witcher 3 Wild Hunt",
+    "price": 2200,
+    "img": "https://m.media-amazon.com/images/I/71f3MpaIj0S._AC_SX466_.jpg"
+  },
+  {
+    "id": "11",
+    "name": "The Last of Us",
+    "price": 1500,
+    "img": "https://m.media-amazon.com/images/I/81CrZ8T2nrL._SX425_.jpg"
+  },
+  {
+    "id": "12",
+    "name": "Bloodborne",
+    "price": 1700,
+    "img": "https://m.media-amazon.com/images/I/81iItFYPNEL._SX425_.jpg"
   }
 ]
